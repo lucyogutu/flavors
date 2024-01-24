@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 
 class AppConfig extends InheritedWidget {
-  AppConfig({
+  const AppConfig({
+    super.key,
     required this.appDisplayName,
     required this.appInternalId,
     required Widget child,
@@ -21,5 +22,6 @@ class AppConfig extends InheritedWidget {
 }
 
 abstract class StringResource {
+  // ignore: non_constant_identifier_names
   String APP_DESCRIPTION = '';
 }

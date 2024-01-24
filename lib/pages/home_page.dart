@@ -1,5 +1,3 @@
-import 'dart:ui';
-
 import 'package:flavors/models/app_config.dart';
 import 'package:flavors/value_objects/strings.dart';
 import 'package:flutter/material.dart';
